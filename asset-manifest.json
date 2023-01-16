@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-me/static/css/main.c869d322.css",
-    "main.js": "/react-me/static/js/main.ca2757fc.js",
+    "main.css": "/react-me/static/css/main.064c051f.css",
+    "main.js": "/react-me/static/js/main.170a1ab3.js",
     "static/media/2 Cazare si Tratament Slanic Moldova - Complex Panoramic.png": "/react-me/static/media/2 Cazare si Tratament Slanic Moldova - Complex Panoramic.c61540ba4bb289b43567.png",
     "static/media/8 Case din Containere – Casele modulare.png": "/react-me/static/media/8 Case din Containere – Casele modulare.1bdff724361c2968ed2f.png",
     "static/media/1 Unik Q Service Bacau.png": "/react-me/static/media/1 Unik Q Service Bacau.20861d1d1a391f6df46a.png",
@@ -25,11 +25,11 @@
     "static/media/aboutme.png": "/react-me/static/media/aboutme.46d36f2a5dc6cd7222d0.png",
     "static/media/me2.png": "/react-me/static/media/me2.9abfbbc6d2a39df4cbbe.png",
     "index.html": "/react-me/index.html",
-    "main.c869d322.css.map": "/react-me/static/css/main.c869d322.css.map",
-    "main.ca2757fc.js.map": "/react-me/static/js/main.ca2757fc.js.map"
+    "main.064c051f.css.map": "/react-me/static/css/main.064c051f.css.map",
+    "main.170a1ab3.js.map": "/react-me/static/js/main.170a1ab3.js.map"
   },
   "entrypoints": [
-    "static/css/main.c869d322.css",
-    "static/js/main.ca2757fc.js"
+    "static/css/main.064c051f.css",
+    "static/js/main.170a1ab3.js"
   ]
 }
