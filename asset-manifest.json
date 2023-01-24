@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-me/static/css/main.6296229e.css",
-    "main.js": "/react-me/static/js/main.e2475d45.js",
+    "main.js": "/react-me/static/js/main.6609ad56.js",
     "static/media/2 Cazare si Tratament Slanic Moldova - Complex Panoramic.png": "/react-me/static/media/2 Cazare si Tratament Slanic Moldova - Complex Panoramic.c61540ba4bb289b43567.png",
     "static/media/8 Case din Containere – Casele modulare.png": "/react-me/static/media/8 Case din Containere – Casele modulare.1bdff724361c2968ed2f.png",
     "static/media/1 Unik Q Service Bacau.png": "/react-me/static/media/1 Unik Q Service Bacau.20861d1d1a391f6df46a.png",
@@ -23,15 +23,15 @@
     "static/media/cv-Augustin-Fartade - ENG.pdf": "/react-me/static/media/cv-Augustin-Fartade - ENG.0953eb96b1c361e43e71.pdf",
     "static/media/19 fuzzy.png": "/react-me/static/media/19 fuzzy.55f092a33ab75e27df78.png",
     "static/media/16 php scrapper.png": "/react-me/static/media/16 php scrapper.3f4a1c94271053507336.png",
-    "static/media/cv Augustin Fartade.pdf": "/react-me/static/media/cv Augustin Fartade.336992c6410d97395495.pdf",
+    "static/media/cv Augustin Fartade.pdf": "/react-me/static/media/cv Augustin Fartade.27a083c71a62513b2101.pdf",
     "static/media/aboutme.png": "/react-me/static/media/aboutme.46d36f2a5dc6cd7222d0.png",
     "static/media/me2.png": "/react-me/static/media/me2.9abfbbc6d2a39df4cbbe.png",
     "index.html": "/react-me/index.html",
     "main.6296229e.css.map": "/react-me/static/css/main.6296229e.css.map",
-    "main.e2475d45.js.map": "/react-me/static/js/main.e2475d45.js.map"
+    "main.6609ad56.js.map": "/react-me/static/js/main.6609ad56.js.map"
   },
   "entrypoints": [
     "static/css/main.6296229e.css",
-    "static/js/main.e2475d45.js"
+    "static/js/main.6609ad56.js"
   ]
 }
