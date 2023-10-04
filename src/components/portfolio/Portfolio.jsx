@@ -41,7 +41,7 @@ const data = [
   {
     id: 2,
     image: IMG15,
-    title: 'Image downloaders',
+    title: 'Image downloader',
     desc: 'Download Image from google by CSV list',
     technology: 'Python',
     live: 'https://github.com/AugustinCF/balkanicprod/tree/master/google/Google-Image-Scraper-master'
