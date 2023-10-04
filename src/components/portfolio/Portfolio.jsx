@@ -170,6 +170,15 @@ const data = [
     desc: 'Full Stack',
     technology: 'Woocommerce',
     live: 'http://beautyvibes.ro/'
+  },
+
+  {
+    id: 20,
+    image: IMG20,
+    title: 'Beautyvibes',
+    desc: 'Full Stack',
+    technology: 'Woocommerce',
+    live: 'http://beautyvibes.ro/'
   }
    
   
