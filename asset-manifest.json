@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-me/static/css/main.6296229e.css",
-    "main.js": "/react-me/static/js/main.db2843f9.js",
+    "main.js": "/react-me/static/js/main.1d714696.js",
     "static/media/2 Cazare si Tratament Slanic Moldova - Complex Panoramic.png": "/react-me/static/media/2 Cazare si Tratament Slanic Moldova - Complex Panoramic.c61540ba4bb289b43567.png",
     "static/media/8 Case din Containere – Casele modulare.png": "/react-me/static/media/8 Case din Containere – Casele modulare.1bdff724361c2968ed2f.png",
     "static/media/10 Royal Garden – Centru de evenimente Bacau.png": "/react-me/static/media/10 Royal Garden – Centru de evenimente Bacau.00439849f61f5644e068.png",
@@ -27,10 +27,10 @@
     "static/media/me2.png": "/react-me/static/media/me2.9abfbbc6d2a39df4cbbe.png",
     "index.html": "/react-me/index.html",
     "main.6296229e.css.map": "/react-me/static/css/main.6296229e.css.map",
-    "main.db2843f9.js.map": "/react-me/static/js/main.db2843f9.js.map"
+    "main.1d714696.js.map": "/react-me/static/js/main.1d714696.js.map"
   },
   "entrypoints": [
     "static/css/main.6296229e.css",
-    "static/js/main.db2843f9.js"
+    "static/js/main.1d714696.js"
   ]
 }
