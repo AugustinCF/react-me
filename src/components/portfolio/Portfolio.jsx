@@ -128,7 +128,7 @@ const data = [
     title:' CASE DIN CONTAINERE',
     desc: 'Full Stack',
     technology:' Wordpress',
-    live: 'http://testwp.royalcomfort.ro'
+    live: 'https://case-din-containere.ro/'
   }, {
     id: 14,
     image: IMG9,
@@ -136,14 +136,7 @@ const data = [
     desc: 'Full Stack',
     technology:' OpenCart',
     live: 'https://sanitario.ro/'
-  }, {
-    id: 15,
-    image: IMG11,
-    title: 'Poke',
-    desc: 'Full Stack',
-    technology:' OpenCart',
-    live: 'http://pokepoke.ro/'
-  },
+  }, 
     {
     id: 16,
     image: IMG10,
@@ -172,7 +165,7 @@ const data = [
   },
   {
     id: 19,
-    image: IMG19,
+    image: IMG20,
     title: 'Beautyvibes',
     desc: 'Full Stack',
     technology: 'Woocommerce',
@@ -198,7 +191,7 @@ const data = [
               <img src={image} alt={title}/>
             </div>
             <h3>{title}</h3>
-            <div className="desc">{asc}</div>
+            <div className="desc">{desc}</div>
             <div className="portfolio__item-cta">
             <a href={live} className='btn' target='_blank'>Live</a>
             <div className="technology">{technology}</div>
