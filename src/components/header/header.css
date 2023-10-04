@@ -89,6 +89,10 @@ section
              
             
         }
+    .header__socials
+    {
+        bottom: 31rem;
+    }
     
 }
 

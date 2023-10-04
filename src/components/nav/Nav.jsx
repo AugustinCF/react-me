@@ -1,11 +1,11 @@
 import React from 'react'
 import './nav.css'
 import {BiHome} from 'react-icons/bi'
+import {MdOutlineContactMail} from 'react-icons/md'
 import {AiOutlineProject} from 'react-icons/ai'
-import {SiFuturelearn} from 'react-icons/si'
-import {MdMiscellaneousServices} from 'react-icons/md'
 import {AiOutlineUser} from 'react-icons/ai'
 import { useState } from 'react'
+ 
  
 const Nav = () => {
 
@@ -14,10 +14,9 @@ const Nav = () => {
  
     <nav>
       <a href='#' onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''} ><BiHome/></a>
-      <a href='#about' onClick={() => setActiveNav('#about')} className= {activeNav === '#about' ? 'active' : ''}><AiOutlineProject/></a>
-      <a href='#experience' onClick={() => setActiveNav('#experience')} className= {activeNav === '#experience' ? 'active' : ''}><SiFuturelearn/></a>
-      <a href='#services'onClick={() => setActiveNav('#services')} className= {activeNav === '#services' ? 'active' : ''}><MdMiscellaneousServices/></a> 
-      <a href='#contact'onClick={() => setActiveNav('#contact')} className= {activeNav === '#contact' ? 'active' : ''}><AiOutlineUser/></a> 
+      <a href='#about' onClick={() => setActiveNav('#about')} className= {activeNav === '#about' ? 'active' : ''}><AiOutlineUser/></a>
+      <a href='#portfolio' onClick={() => setActiveNav('#portfolio')} className= {activeNav === '#portfolio' ? 'active' : ''}><AiOutlineProject/></a>
+      <a href='#contact'onClick={() => setActiveNav('#contact')} className= {activeNav === '#contact' ? 'active' : ''}><MdOutlineContactMail/></a> 
     </nav>
   )
 }

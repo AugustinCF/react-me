@@ -22,6 +22,7 @@ import IMG16  from '../../assets/16 php scrapper.png'
 import IMG17  from '../../assets/17 email template.png'
 import IMG18  from '../../assets/18 cod bare.png'
 import IMG19  from '../../assets/19 fuzzy.png'
+import IMG20  from '../../assets/19 beautyvibes.png'
 
 
 const data = [
@@ -40,7 +41,7 @@ const data = [
   {
     id: 2,
     image: IMG15,
-    title: 'Image Downloader',
+    title: 'Image downloader',
     desc: 'Download Image from google by CSV list',
     technology: 'Python',
     live: 'https://github.com/AugustinCF/balkanicprod/tree/master/google/Google-Image-Scraper-master'
@@ -168,6 +169,14 @@ const data = [
     desc: 'Full Stack',
     technology: 'Woocommerce',
     live: 'http://cod-bare.ro/'
+  },
+  {
+    id: 19,
+    image: IMG19,
+    title: 'Beautyvibes',
+    desc: 'Full Stack',
+    technology: 'Woocommerce',
+    live: 'http://beautyvibes.ro/'
   }
    
   
@@ -189,7 +198,7 @@ const data = [
               <img src={image} alt={title}/>
             </div>
             <h3>{title}</h3>
-            <div className="desc">{desc}</div>
+            <div className="desc">{asc}</div>
             <div className="portfolio__item-cta">
             <a href={live} className='btn' target='_blank'>Live</a>
             <div className="technology">{technology}</div>

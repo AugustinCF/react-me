@@ -3,43 +3,38 @@ import './contact.css'
 import {AiOutlineMail} from 'react-icons/ai'
 import {AiOutlineWhatsApp} from 'react-icons/ai'
 import {AiOutlinePhone} from 'react-icons/ai'
+import '../../components/about/about.css'
 
 const Contact = () => {
   return (
     <section id='contact'>
-      <h5>Get in Touch</h5>
-      <h2>Cotact me</h2>
+      <h5>Info</h5>
+      <h2>CONTATTI</h2>
       <div className="container contact__container">
         <div className="contact__options">
 
-          <article className='contact__option'>
-            <AiOutlineMail/>
+          <article className='contact__option1'>
+            <AiOutlineMail  className='about__icon'/>
             <h4>Email</h4>
             <h5>fartade3@gmail.com</h5>
-           <a href='mailto:fartade3@gmail.com' target="_blank">Send me an email</a>
+           <a href='mailto:fartade3@gmail.com' target="_blank">Invia e-mail</a>
           </article>
 
-          <article className='contact__option'>
-            <AiOutlineWhatsApp/>
+          <article className='contact__option2'>
+            <AiOutlineWhatsApp  className='about__icon'/>
             <h4>Whatsapp</h4>
-            <h5>224343245234</h5>
-           <a href='mailto:fartade3@gmail.com' target="_blank">Send me an email</a>
+            <h5>3791227150</h5>
+           <a href='https://wa.me/3791227150' target="_blank">Scrivimi su Whatsapp</a>
           </article>
 
-          <article className='contact__option'>
-            <AiOutlinePhone/>
+          <article className='contact__option3'>
+            <AiOutlinePhone  className='about__icon'/>
             <h4>Mobile</h4>
-            <h5>224343245234</h5>
-           <a href='mailto:fartade3@gmail.com' target="_blank">Send me an email</a>
+            <h5>3791227150</h5>
+           <a href='tel:393791227150' target="_blank">Chiama</a>
           </article>
 
-        </div>
-        <form action="">
-          <input type="text" className='name' placeholder='Name' required/> 
-          <input  type="email" className='email' placeholder='email' required/> 
-          <textarea name="message"   rows="7" placeholder='Message' required>Message</textarea>
-          <button type='submit'>Send Message</button>
-        </form>
+        </div>      
       </div>
     </section> 
   )

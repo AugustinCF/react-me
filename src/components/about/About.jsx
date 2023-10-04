@@ -22,14 +22,14 @@ const About = () => {
           <div className="about__cards">
             <article className='about__card'>
               <BsAward className='about__icon'/>
-              <h5>Expreience</h5>
-              <small>3+ Years working</small> 
+              <h5>Esperienza</h5>
+              <small>Più di 3 anni di lavoro</small> 
             </article>
 
             <article className='about__card'>
               <FiUsers className='about__icon'/>
-              <h5>Projects</h5>
-              <small>50+ Completed projects</small> 
+              <h5>Progetti</h5>
+              <small>Oltre 50 progetti completati</small> 
             </article>
 
             <article className='about__card'>
@@ -42,9 +42,9 @@ const About = () => {
 
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum iusto distinctio, assumenda ab vitae consequatur provident. Saepe dolores, ipsam veritatis a, laborum nulla nihil quidem sed iure, inventore blanditiis fugit.
+          Ciao, il mio nome è Augustin, sono esperto nello sviluppo e nella progettazione web-app. I miei  linguaggi preferiti sono PHP e Python. Mi piace sviluppare sia il front-end che il back-end e cerco costantemente di migliorare le mie competenze e di rimanere aggiornato con le tendenze e le migliori pratiche del settore, il che mi rende un valore aggiunto per qualsiasi progetto.
           </p>
-            <a href='#' className='btn btn-primary'>Let's Talk</a>
+            <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
      </section> 
