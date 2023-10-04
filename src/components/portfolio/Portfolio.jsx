@@ -66,16 +66,6 @@ const data = [
     live: 'https://github.com/AugustinCF/FuzzyWuzzy'
   },
   
-  
-  {
-    id: 5,
-    image: IMG1,
-    title:' Unik Service',
-    desc: 'Full Stack',
-    technology: 'Wordpress',
-    live: 'https://unikservice.ro',
-  },
-  
 
   
   {
