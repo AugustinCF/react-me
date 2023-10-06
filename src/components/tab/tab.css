@@ -1,0 +1,62 @@
+ 
+/*mob*/
+@media screen and (max-width: 600px) {
+    .tabs {
+        display: block !important;
+    }
+    .tabs button{
+        width: 50% !important;
+    }
+    
+    }
+
+ .tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+
+.tabs button {
+    background-color: lightgray;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 25px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.5s ease-out;
+}
+
+.tabs button:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.tabs button:disabled {
+    background: linear-gradient(245.39deg, #FC65ED -35.14%, #0500FF 143.06%);
+    color: white;
+}
+
+.title {
+    color: black;
+    font-size: medium;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.content {
+    padding: 50px 80px;
+    background-color: white;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.content,
+button {
+    font-size: 15px;
+}
+  
+

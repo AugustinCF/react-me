@@ -7,6 +7,7 @@ import Portfolio from './components/portfolio/Portfolio'
 import Services from './components/services/Services'
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
+import Tab from './components/tab/Tab'
 
  
 
@@ -16,7 +17,7 @@ const App = () => {
         <Header/>
         <Nav/>
         <About/>
-        <Portfolio/>
+        <Tab/>
         <Contact/>
         <Footer/>
  
