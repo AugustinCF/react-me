@@ -10,9 +10,7 @@ import Logo from '../../assets/LOGO.png'
  const Footer = () => {
    return (
      <footer>
-      <a href='#' className='footer__logo'>
-        <img src={Logo} alt="" />
-      </a>
+      
       <ul className='permalinks'>
         <li><a href='#'>Home</a></li>
         <li><a href='#about'>About</a></li>

@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import './tab.css'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+ 
+import { FaPhp,FaWordpressSimple, FaPython, FaShoppingCart, FaWordpress } from 'react-icons/fa';  
+import { SiAdobexd  } from 'react-icons/si';  
+import { AiOutlineMenu  } from 'react-icons/ai';  
+
 
 import IMG2 from '../../assets/2 Cazare si Tratament Slanic Moldova - Complex Panoramic.png'
 import IMG3 from '../../assets/3 Balkanic Taste Europe.png'
@@ -22,7 +24,6 @@ import IMG19  from '../../assets/19 fuzzy.png'
 import IMG20  from '../../assets/20 beautyvibes.png'
 import IMG21  from '../../assets/21 masion.png'
 import IMG22 from   '../../assets/22 safewood.png'
-
 const Tabs = () => {
 
     const [currentTab, setCurrentTab] = useState('All');
@@ -74,7 +75,7 @@ const Tabs = () => {
           image: IMG2,
           title: 'Hotel Panoramic',
           desc: 'Progetazzione UX / UI',
-          technology:' Adobe XD',
+          technology:'Adobe XD',
           live: 'https://complex-panoramic.ro/'
         },
         
@@ -190,14 +191,27 @@ const Tabs = () => {
         <section id='portfolio'>
         <h5>My works</h5>
         <h2>Portfolio</h2>
-
         <div className='container'>
-            <div className='tabs'>
-                <button disabled={currentTab === `All`} onClick={() => handleTabClick('All')}>All</button>
-                {Array.from(new Set(tabs.map(tab => tab.technology))).map((technology, i) =>
-                    <button className='buton' key={i}  disabled={currentTab === `${technology}`} onClick={() => handleTabClick(technology)}>{technology}</button>
-                )}
-            </div>
+        <div className='tabs'>
+    <button disabled={currentTab === 'All'} onClick={() => handleTabClick('All')}>
+       {<AiOutlineMenu />} All
+    </button>
+    {Array.from(new Set(tabs.map(tab => tab.technology))).map((technology, i) => (
+      <button className='buton' key={i} disabled={currentTab === technology} onClick={() => handleTabClick(technology)}>
+      {technology === 'PHP' && <FaPhp />}  
+      {technology === 'Python' && <FaPython />}  
+      {technology === 'Adobe XD' &&  <SiAdobexd/>} 
+      {technology === 'OpenCart' && <FaShoppingCart />} 
+      {technology === 'Wordpress' && <FaWordpress />}  
+      {technology === 'Woocommerce' && <FaWordpressSimple />}  
+  
+      <span className="icon-text-spacing">{technology}</span>
+  </button>
+  
+    ))}
+</div>
+
+
             <div className='portfolio__container'>
 
                  {filteredTabs.map((tab, i) => (

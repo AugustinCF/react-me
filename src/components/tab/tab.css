@@ -1,4 +1,8 @@
  
+ .icon-text-spacing {
+    margin-left: 10px; 
+ 
+}
 /*mob*/
 @media screen and (max-width: 600px) {
     .tabs {
